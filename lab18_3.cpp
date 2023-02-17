@@ -25,7 +25,7 @@ int main(){
 
 vector<int> randomVector(int N){	
     vector<int> v;
-    for(unsigned int i = 0; i < N; i++) v.at(i)=(rand()%10);
+    for(unsigned int i = 0; i < N; i++) v.push_back(rand()%10);
     return v;
 }
 
